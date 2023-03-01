@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+
+<body>
+    <script>
+        class User {
+            constructor(firstname, lastname) {
+                this.firstname = firstname;
+                this.lastname = 20;
+                // this.username = username;
+                // this.password = password;
+            }
+        }
+        class UserPrototype extends User {
+            constructor(firstname, password) {
+                super(firstname);
+                this.password = password;
+            }
+        }
+
+        function UserNew(firstname, lastname, avatar) {
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.avatar = avatar;
+        }
+
+        let userNew = new UserNew("haong", "truong", "tr");
+        localStorage.setItem("name", "truong");
+        /*    const person = {
+            name: "truong",
+            age: 34,
+            calYear: function () {
+                return 2023 - this.age
+            }
+        }
+        console.log(person);
+ */
+        // console.log(typeof JSON.stringify(person));
+        // console.log(typeof JSON.stringify(person));
+        // localStorage.setItem("personString", JSON.stringify(person))
+        // localStorage.setItem("person", person)
+        // const c = JSON.parse(localStorage.getItem("personString"))
+        // console.log(c);
+        // localStorage.removeItem("name")
+
+        const student = new User("hoang")
+        console.log(typeof student);
+        let newArr = [{
+            name: "ten"
+        }]
+
+        newArr.push(student)
+        console.log(newArr[1].lastname);
+
+        // 
+        function saveToStorage(key, value) {
+            localStorage.setItem(key, JSON.stringify(value));
+        }
+
+        function getData(key) {
+            return newArr = JSON.parse(localStorage.getItem(key))
+        }
+        saveToStorage("newArr", newArr)
+        getData("newArr")
+        console.log(newArr[1].lastname);
+
+
+        // localStorage.removeItem("student")
+        // localStorage.setItem("student", student)
+        // const c = localStorage.getItem("person")
+        // console.log(JSON.stringify(person));
+        // console.log(JSON.parse(JSON.stringify(person)));
+    </script>
+</body>
+
+</html>
