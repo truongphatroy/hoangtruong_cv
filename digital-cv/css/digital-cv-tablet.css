@@ -1,0 +1,126 @@
+/* CHỨNG CHỈ DOANH NGHIỆP
+ FUNiX: WEB101x_2.1-A_VN Xây dựng website đầu tiên
+ Assignment 03 - CV CÁ NHÂN
+ Funix Id: truonghxFX09282
+ Coder name: Hoang Xuan Truon */
+
+ /* CSS for tablet */
+
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    section > .container {
+        max-width: 992px;
+        /* min-width: 768px; */
+        padding: 20px 30px;
+
+    }
+    /* Navigation */
+    .frame-avatar {
+        display: none;
+    }
+
+    nav a:nth-child(2) {
+        border-right: none;
+    }
+
+    /* ABOUT personal information */
+    #target {
+        padding: 24px 24px 24px 24px ;
+        font-size: 20px;
+    }
+    
+    #personal-info {
+        padding: 24px 32px;
+        font-size: 20px;
+        background-color: #f7f7f7;
+    }
+
+    /* About gird */
+    #job-info .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* padding: 24px 0px; */
+        gap: 32px;
+    }
+
+    /* HOBBY */
+    .hobby-content {
+        gap: 24px;
+    }
+
+    /* CERIFICATE */
+    .certificate-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        column-gap: 40px;
+    }
+    .certificate-item {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .vertical {
+        position: absolute;
+        width: 1px;
+        background-color: #d6c08d;
+        left: 50%;
+        bottom: 55%;
+        top: 0;
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+
+    .horizontal {
+        position: absolute;
+        height: 1px;
+        left: 0;
+        right: 0px;
+        top: 50%;
+        background-color: #d6c08d;
+    }
+
+    /* PROJECT */
+    .project-wrapper{
+        grid-template-columns: 1fr;
+    }
+    #goals{
+        grid-row: 1/2;
+    }
+    #scopes{
+        grid-row: 2/3;
+    }
+    #team{
+        grid-row: 3/4;
+    }
+    #primary{
+        grid-row: 4/5;
+    }
+    #timeline{
+        grid-row: 5/6;
+        grid-column: unset;
+    }
+    #goals .row, #team .row, #primary .row, #timeline .row{
+        flex-direction: column;
+    }
+    #team .row .content, #primary .row .content{
+        align-self: flex-start;
+    }
+    #scopes .goals-content{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    #timeline .row{
+        gap: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #timeline .row>*{
+        align-self: flex-start;
+    }
+    #timeline .row .content{
+        width: 100%;
+    }
+ }
