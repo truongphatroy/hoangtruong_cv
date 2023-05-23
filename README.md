@@ -1,48 +1,13 @@
+Personal CV Web
+This is a personal CV web project that showcases my resume and provides information about my skills, experience, and projects.
 
-```
-Assignment 02 Stater
-├─ css
-│  ├─ font.css
-│  └─ style.css
-├─ fonts
-│  ├─ OpenSans-Italic-webfont.eot
-│  ├─ OpenSans-Italic-webfont.svg
-│  ├─ OpenSans-Italic-webfont.ttf
-│  ├─ OpenSans-Italic-webfont.woff
-│  ├─ OpenSans-Light-webfont.eot
-│  ├─ OpenSans-Light-webfont.svg
-│  ├─ OpenSans-Light-webfont.ttf
-│  ├─ OpenSans-Light-webfont.woff
-│  ├─ OpenSans-LightItalic-webfont.eot
-│  ├─ OpenSans-LightItalic-webfont.svg
-│  ├─ OpenSans-LightItalic-webfont.ttf
-│  ├─ OpenSans-LightItalic-webfont.woff
-│  ├─ OpenSans-Regular-webfont.eot
-│  ├─ OpenSans-Regular-webfont.svg
-│  ├─ OpenSans-Regular-webfont.ttf
-│  ├─ OpenSans-Regular-webfont.woff
-│  ├─ OpenSans-Semibold-webfont.eot
-│  ├─ OpenSans-Semibold-webfont.svg
-│  ├─ OpenSans-Semibold-webfont.ttf
-│  ├─ OpenSans-Semibold-webfont.woff
-│  ├─ et-line.eot
-│  ├─ et-line.svg
-│  ├─ et-line.ttf
-│  ├─ et-line.woff
-│  ├─ fontello.eot
-│  ├─ fontello.svg
-│  ├─ fontello.ttf
-│  └─ fontello.woff
-├─ icon-list.html
-├─ images
-│  ├─ Cert_PRF.png
-│  ├─ Cert_WEB.png
-│  ├─ banner.jpg
-│  ├─ default-avatar.webp
-│  ├─ funix-icon.png
-│  ├─ project_1.png
-│  ├─ project_2.png
-│  └─ project_3.png
-└─ index.html
-
-```
+Features
+About Me: A section that provides a brief introduction and overview of my background, skills, and career objectives.
+Experience: Detailed information about my professional experience, including previous job positions, responsibilities, and accomplishments.
+Skills: An overview of my technical skills, highlighting areas of expertise and proficiency.
+Projects: A showcase of my notable projects, providing descriptions, technologies used, and links to relevant repositories or live demos.
+Contact: A contact form or contact information for visitors to reach out to me directly.
+Technologies Used
+HTML
+CSS
+Bootstrap (optional)
